@@ -1,19 +1,4 @@
-# kvadratning perimrtiri berilgan a uning perimetirini toping
-a = int(input("a=\n>>>"))
-P=4*a
-print(P)
-## kvadratni tomonini a berilgan uning yuzini toping.
-aa = int(input("aa=\n>>>"))
-S= aa**2
-print(S)
-##tog`ri tortburchakning tomonlari a va b berilgan uning yuzi va perimetirini toping
-A = int(input("A=\n>>>"))
-B = int(input("B=\n>>>"))
-s= A*B
-p=2(A+B)
-print(f"yuzi {s} ga teng perimetri {p} ga teng")
-##aylanani diametiri berilgan uning uzunligini aniqlang
-PI = 3.14
-d = int(input("d=\n>>>"))
-l=PI*d
-print(l)
+# 7- misol
+input("F fayl o`lchami bitlarda berilgan uning necha kilobayt ekanligi topilsin. \nteyyor bolsangiz Enter tugmasini bosing. ")
+F = int(input("necha BIT kiritmoqchisiz\n>>>F="))
+print(f"siz kiritgan {F} bit {F/8} kilobaytga teng.")
